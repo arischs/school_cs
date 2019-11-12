@@ -45,7 +45,9 @@ void Learner::respond(string phrase){
 }
 
 
-
+void welcome(/* arguments */) {
+  std::cout << "WELCOME" << '\n';
+}
 
 
 main(){
