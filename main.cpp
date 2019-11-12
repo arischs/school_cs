@@ -4,7 +4,7 @@
 MADE BY: Arya Bhushan
          Hiten Vats
 
-		 
+
 ****************************************************************************/
 #include <fstream>
 #include <iostream>
@@ -44,7 +44,8 @@ void Learner::respond(string phrase){
 
 
     string userResponse;
-    cout<< "\nUh-oh! I don't know how to respond to that yet! \nPlease enter the ideal response to the query: \""<< phrase<< "\"" << endl;   // Repeat the phrase the user entered;
+    cout<< "\nUh-oh! I don't know how to respond to that yet!";
+    cout<<"\nPlease enter the ideal response to the query: \""<< phrase<< "\"" << endl;   // Repeat the phrase the user entered;
 
     getline(cin, userResponse);    // Get the ideal response
     userResponse=userResponse+" "; //to separately create a block of query and response
