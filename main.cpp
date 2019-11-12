@@ -55,18 +55,42 @@ void Learner::respond(string phrase){
 
 
 void welcome(/* arguments */) {
-  std::cout << "WELCOME" << '\n';
+
+cout << ""
+"  ________________________________________________\n"
+"|    _________________________________________     |\n"
+"|   |                                         |    |\n"
+"|   |  C:> Welcome_                           |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |                                         |    |\n"
+"|   |_________________________________________|    |\n"
+"|                                                  |\n"
+"|__________________________________________________|\n"
+"      |___________________________________|\n"
+"                 |             |\n"
+"                 |             |\n"
+"          -----------------------------\n"
+"          -----------------------------\n";
+
 
 }
 
 
 main(){
     Learner AI;    // Create a learner object
+    welcome();
 
-    /*
-    	The following is the main loop. It will continue until the application is closed.
-    	The user enters their input, and then the learner will respond.
-    */
+    	 //The user enters their input, and then the learner will respond.
+    
     for(;;){
         cout << "\nYOU: ";    // User prompt
         string phrase;
